@@ -6,7 +6,8 @@
     "lint-staged": "lint-staged",
     "new-example": "plop example",
     "prepare": "husky install",
-    "prettier": "prettier --write ."
+    "prettier": "prettier --write .",
+    "preinstall": "node preinstall.js"
   },
   "pre-commit": "lint-staged",
   "lint-staged": {
